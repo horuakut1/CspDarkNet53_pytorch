@@ -87,7 +87,7 @@ class CspDarkNet_53(nn.Module):
         return x
 
 if __name__ == "__main__":
-    model = CspDarkNet_53([2,4,8,8])
+    model = CspDarkNet_53([2,8,8,4])
     print(model)
     # if you have GPU, You can use the following code to show this net
     # device = torch.device('cuda:0')
